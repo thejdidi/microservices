@@ -1,0 +1,10 @@
+zuul:
+  ignoredServices: '*'
+  route1:
+      serviceId: ms-pdl
+      path: /pdl/**
+      stripPrefix: false
+    route2:
+      serviceId: ms-agreement
+      path: /agreement/**
+      stripPrefix: false
